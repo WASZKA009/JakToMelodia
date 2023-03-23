@@ -1,0 +1,17 @@
+$background-color: #bed3ff;
+$primary-font-color: red;
+$primary-font-size: 20px;
+
+*{
+  padding: 0;
+  margin: 0;
+
+  body{
+  background-color: $background-color;
+
+  .column{
+    border: 3px blue solid;
+  }
+}
+}
+
