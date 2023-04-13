@@ -1,3 +1,4 @@
+@import '~bootstrap/scss/bootstrap';
 $background-color: #bed3ff;
 $primary-font-color: red;
 $primary-font-size: 20px;
@@ -9,9 +10,42 @@ $primary-font-size: 20px;
   body{
   background-color: $background-color;
 
-  .column{
-    border: 3px blue solid;
+    .column{
+      border: 3px blue solid;
+
+      .circle{
+        border: 1px darkred solid;
+        border-radius: 50%;
+        background-color: red;
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    .centre{
+      text-align: center;
+    }
+
+    .points{
+      border: 1px solid darkolivegreen;
+      background-color: olive;
+      height: 30px;
+      width: 70px;
+      margin: 10px 0;
+    }
+    
+    .songList{
+      list-style-type: none;
+
+      li{
+        border: 0.1px solid black;
+        margin: 10px 0;
+      }
+
+      .song{
+        width: 200px;
+      }
+    }
   }
-}
 }
 
